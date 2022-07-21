@@ -1,17 +1,14 @@
-package com.policode.mvvm.view
+package com.policode.mvvm.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
-import androidx.activity.viewModels
 import androidx.appcompat.widget.SearchView
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.policode.mvvm.APIService
 import com.policode.mvvm.DogAdapter
 import com.policode.mvvm.databinding.ActivityMainBinding
-import com.policode.mvvm.viewmodel.QuoteViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

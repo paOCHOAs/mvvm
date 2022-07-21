@@ -1,9 +1,9 @@
-package com.policode.mvvm.model
+package com.policode.mvvm.data.model
 
 class QuoteProvider {
     companion object{
 
-        fun random():QuoteModel{
+        fun random(): QuoteModel {
             val position : Int = (0..2).random()
             return quote[position]
         }

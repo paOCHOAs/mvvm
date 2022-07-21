@@ -1,9 +1,9 @@
-package com.policode.mvvm.viewmodel
+package com.policode.mvvm.ui.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.policode.mvvm.model.QuoteModel
-import com.policode.mvvm.model.QuoteProvider
+import com.policode.mvvm.data.model.QuoteModel
+import com.policode.mvvm.data.model.QuoteProvider
 
 class QuoteViewModel :ViewModel(){
 
